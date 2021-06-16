@@ -57,37 +57,7 @@ if (!is.macos) {
 }
 
 const debugSubmenu = [
-	{
-		label: 'Show Settings',
-		click() {
-			config.openInEditor();
-		}
-	},
-	{
-		label: 'Show App Data',
-		click() {
-			shell.openItem(app.getPath('userData'));
-		}
-	},
-	{
-		type: 'separator'
-	},
-	{
-		label: 'Delete Settings',
-		click() {
-			config.clear();
-			app.relaunch();
-			app.quit();
-		}
-	},
-	{
-		label: 'Delete App Data',
-		click() {
-			shell.moveItemToTrash(app.getPath('userData'));
-			app.relaunch();
-			app.quit();
-		}
-	}
+
 ];
 
 const macosTemplate = [

@@ -1,12 +1,12 @@
 {
-	"name": "app-name",
-	"productName": "App Name",
+	"name": "da-best-app-ever",
+	"productName": "DA BEST APPP EVER!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
 	"version": "0.0.1",
 	"description": "The best app ever",
 	"license": "MIT",
 	"repository": "sindresorhus/electron-boilerplate",
 	"author": {
-		"name": "Your Name",
+		"name": "Daniel Thomas",
 		"email": "user@gmail.com",
 		"url": "https://sindresorhus.com"
 	},
@@ -16,7 +16,7 @@
 		"test": "npm run lint",
 		"start": "electron .",
 		"pack": "electron-builder --dir",
-		"dist": "electron-builder --macos --linux --windows",
+		"dist": "electron-builder --windows",
 		"release": "np"
 	},
 	"dependencies": {
